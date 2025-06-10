@@ -1,16 +1,21 @@
 {
   "name": "database.null",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "vite": "^6.3.5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fr4ny3r/database.null.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fr4ny3r/database.null/issues"
+  },
+  "homepage": "https://github.com/Fr4ny3r/database.null#readme",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
